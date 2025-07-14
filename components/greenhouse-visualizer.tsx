@@ -101,7 +101,7 @@ export default function GreenhouseVisualizer({
     const inRow2 = row2Numbers.includes(targetCol)
     
     if (!inRow1 && !inRow2) {
-      return { error: "Column not found in either row" }
+      return { error: "Column not found in either row", row: undefined, direction: undefined, columnsToSkip: undefined, targetColumnNumber: undefined }
     }
 
     const results = []
@@ -116,7 +116,8 @@ export default function GreenhouseVisualizer({
         row: 1,
         direction: targetIndex > platformIndex ? "right" : "left",
         columnsToSkip: Math.round(plantsToSkip),
-        targetColumnNumber: targetCol
+        targetColumnNumber: targetCol,
+        error: undefined
       })
     }
 
@@ -130,7 +131,8 @@ export default function GreenhouseVisualizer({
         row: 2,
         direction: targetIndex > platformIndex ? "right" : "left",
         columnsToSkip: Math.round(plantsToSkip),
-        targetColumnNumber: targetCol
+        targetColumnNumber: targetCol,
+        error: undefined
       })
     }
 
