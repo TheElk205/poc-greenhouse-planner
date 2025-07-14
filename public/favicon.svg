@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Greenhouse structure -->
+  <path d="M4 28h24v2H4v-2z" fill="#4a5568"/>
+  
+  <!-- Glass panels -->
+  <path d="M6 12v14h20V12l-10-8-10 8z" fill="#e6fffa" stroke="#38a169" stroke-width="1"/>
+  
+  <!-- Roof -->
+  <path d="M6 12l10-8 10 8H6z" fill="#c6f6d5" stroke="#38a169" stroke-width="1"/>
+  
+  <!-- Door -->
+  <rect x="14" y="18" width="4" height="8" fill="#38a169" stroke="#2f855a" stroke-width="0.5"/>
+  
+  <!-- Plants inside -->
+  <circle cx="10" cy="20" r="1.5" fill="#48bb78"/>
+  <circle cx="22" cy="20" r="1.5" fill="#48bb78"/>
+  <circle cx="10" cy="24" r="1.5" fill="#48bb78"/>
+  <circle cx="22" cy="24" r="1.5" fill="#48bb78"/>
+  
+  <!-- Window reflection -->
+  <path d="M8 14l6-5 6 5v8H8v-8z" fill="rgba(255,255,255,0.2)"/>
+</svg>
